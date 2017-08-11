@@ -37,6 +37,10 @@
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
+.section-expert-name{
+	padding-left: 3px;
+	padding-right: 3px;
+}
 @media (max-width: 991px) {
 	.section-content{ height: 210px; }
 	.section-icon{ width: 80px; }
