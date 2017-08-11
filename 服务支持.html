@@ -182,7 +182,7 @@
 									<div class="input-group-addon">预约留言：</div>
 									<input type="text" class="form-control" id="exampleInputAmount" placeholder="">
 								</div>
-								<a class="emailBespeak-btn" href="">提交预约<div class="btn-icon"><img class="btn-arrow" src="img/btn-arrow2.png" alt="btn-arrow"></div></a>
+								<a class="emailBespeak-btn">提交预约<div class="btn-icon"><img class="btn-arrow" src="img/btn-arrow2.png" alt="btn-arrow"></div></a>
 							</form>
 						</div>
 					</div>
@@ -260,6 +260,37 @@
 			</div>
 		</div>
 	</div>
+
+
+	<div class="max-container floatPage">
+		<div class="floatBg"></div>
+		<div class="floatContent">
+			<img class="floatIcon" src="img/floatIcon1.png">
+			<p class="floatTitle">您已经预约成功！</p>
+			<p class="floatText">我们会尽快与您取得联系，请保持电话畅通。</p>
+			<a class="floatBtn" href="index.html">返回首页<div class="btn-icon"><img class="btn-arrow" src="img/btn-arrow2.png" alt="btn-arrow"></div></a>
+			<img class="floatClose" src="img/floatClose.png">
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	$('.emailBespeak-btn').click(function (){
+		addFloatPage();
+	})
+	$('.floatClose, .floatBg').click(function (){
+		outFloatPage();
+	})
+	function addFloatPage(){
+		$('.floatPage').fadeIn();
+		$('.floatContent').css('top','45%').animate({
+			'top':'50%'
+		},500)
+	}
+	function outFloatPage(){
+		$('.floatPage').fadeOut();
+	}
+
+	</script>
 
 
 
