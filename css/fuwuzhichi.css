@@ -1,0 +1,84 @@
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+	cursor: pointer; 
+    background-color: #fff;
+    opacity: 1;
+}
+@media (max-width: 767px) {
+	#bespeak{ padding-top: 0px;}
+}
+#bespeak .min-title{ line-height: 28px; margin-bottom: 20px; }
+.phoneBespeak{ margin-bottom: 40px; }
+@media (max-width: 767px) {
+	.phoneBespeak{ text-align: center; }
+}
+.phoneBespeak-phone{ font-size: 30px; line-height: 30px; color: #31a4ed; font-weight: bold;
+	font-family:MyriadProBold, "PingFang SC","Helvetica Neue",Arial,"Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif;
+}
+@media (max-width: 767px) {
+	.onlineBespeak{ text-align: center; margin-bottom: 40px; }
+}
+.onlineBespeak-btn{ width: 150px; height: 40px; line-height: 40px; color: #fff; text-align: center; display: block; background: #31a4ed; border-radius: 5px 20px 20px 5px;}
+@media (max-width: 767px) {
+	.onlineBespeak-btn{ margin: 0 auto; border-radius: 20px;}
+}
+.onlineBespeak-btn:hover{ color: #fff;}
+@media (max-width: 767px) {
+	.emailBespeak{ text-align: center;}
+}
+.emailBespeak-btn{ position: relative; width: 230px; height: 45px; line-height: 45px; background: #31a4ed; color: #fff; display: block; text-align: center; border-radius: 60px; font-size: 16px; margin-top: 50px;}
+@media (max-width: 767px) {
+	.emailBespeak-btn{ width: 100%; }
+}
+.emailBespeak-btn:hover{ color: #fff; }
+.emailBespeak-btn .btn-icon{ background: #fff; right: 8px;}
+.contact-lists{ text-align: center;}
+.contact-list{ height: 168px; }
+.contact-icon{ width: 34px; margin-bottom: 20px;}
+@media (max-width: 767px) {
+	.banner .banner-pic{
+		margin-left: -853px;
+	}
+}
+@media (max-width: 767px) {
+	.contact-list{ height: auto; margin-bottom: 30px; }
+	.contact-icon{ width: 21px; margin-bottom: 10px;}
+	.border-right.contact-list{ border-right: 0;}
+}
+#route{ padding-bottom: 50px; }
+.route-box{ position: relative; text-align: center; border-radius: 6px; overflow: hidden; margin-bottom: 30px; }
+.route-title{ font-size: 25px; line-height: 60px; color: #fff; margin: 0; }
+@media (max-width: 767px) {
+	#route{ padding-bottom: 15px; }
+	.route-title{ font-size: 22px; }
+}
+.route-text-container{ height: 70px; line-height: 70px; background: #f9fbff; padding-left: 10px; padding-right: 10px; }
+.route-text{ font-size: 13px; line-height: 1.8; color: #7b8088; margin: 0; display: inline-block; vertical-align: middle; }
+.bg-ditie{ background: #56bae9;}
+.bg-gongjiao{ background: #91a6ea;}
+.bg-zijia{ background: #eda57d;}
+#ditieRoute .route-content{ width: 50%; }
+@media (max-width: 991px) {
+	#ditieRoute .route-content{ width: 100%; }
+	.route-text-container{ padding-left: 20px; padding-right: 20px; }
+}
+.route-pic{ width: 100%; }
+.route-text-step{ width: 29px; margin-right: 5px; margin-top: -2px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

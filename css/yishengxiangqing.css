@@ -1,0 +1,104 @@
+
+.banner{
+	text-align: left;
+	line-height: normal;
+	height: 457px;
+}
+.banner-picBox{
+	position: absolute;
+	display: block;
+	background: url(../img/expert-bg.jpg);
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+}
+.banner-content{
+	height: 100%;
+}
+.expert-pic{
+	margin-top: 67px;
+	height: 408px;
+}
+.banner-info{
+	height: 100%;
+	line-height: 475px;
+}
+.banner-info-content{
+	line-height: 1.8;
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+}
+.banner-btn{
+	color: #fff;
+	border-color: #fff;
+}
+.banner-btn:hover{
+	color: #fff;
+}
+.expert-name{ font-size: 45px; line-height: 45px; margin-bottom: 30px; font-weight: normal; }
+.expert-section{ font-size: 25px; line-height: 25px; margin: 0; font-weight: normal; }
+.expert-desc{ font-size: 25px; }
+@media (max-width: 767px) {
+	.banner{ height: 538px; text-align: center; }
+	.banner-picBox{ height: 270px;}
+	.expert-pic{ height: 225px; margin-top: 45px;}
+	.banner-info{ height: 268px; line-height: 268px; padding: 0; margin-left: -20px; margin-right: -20px; background-color: #f7f8fa;}
+	.expert-name{ font-size: 30px; line-height: 30px; color: #494f58; }
+	.expert-section{ font-size: 24px; line-height: 24px; color: #7b8088; }
+	.expert-desc{  font-size: 22px; color: #7b8088; }
+	.banner-btn{ color: #4e5258; border-color: #ccd3e0;}
+}
+.experience-box{
+	height: 90px;
+	margin-top: 20px;
+}
+.experience-year{
+	font-size: 22px;
+	color: #494f58;
+	font-weight: normal;
+}
+.details-box{ padding-top: 60px; padding-bottom: 0px; }
+.details-info{ padding-bottom: 60px; }
+.details-title-sml{ margin-bottom: 20px; }
+.achieve-box{
+	position: relative;
+	height: 105px;
+	line-height: 105px;
+	background: #f7f8f8;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 20px;
+}
+.achieve-text{
+	position: relative;
+	display: inline-block;
+	line-height: 1.8;
+	vertical-align: middle;
+	margin: 0;
+	z-index: 1;
+}
+.achieve-number{
+	position: absolute;
+	font-size: 80px;
+	left: 27px;
+	top: 0px;
+	color: #eaeff4;
+	font-weight: bold;
+}
+@media (max-width: 767px) {
+	.experience-box{ height: auto;}
+	.achieve-box{ padding-left: 15px; padding-right: 15px; margin-bottom: 10px;}
+	.achieve-number{ left: 15px;}
+}
+
+
+
+
+
+
+
+
+
+
+

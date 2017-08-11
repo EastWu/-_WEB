@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>北京博仁医院</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/idangerous.swiper.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/yishengxiangqing.css" rel="stylesheet">
+    <style type="text/css">
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- 引入JQuery -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!-- 引入Bootstrap -->
+    <script src="js/bootstrap.js"></script>
+    <!-- 引入Swiper -->
+    <script src="js/idangerous.swiper.js"></script>
+  </head>
+  <body>
+
+  	<!-- 页面头部 - 导航 -->
+  	<div class="max-container header hidden-xs">
+		<div class="container">
+			<a class="pull-left" href="index.html"><img class="header-logo" src="img/logo.png" alt="header-logo"></a>
+			<ul class="header-menu pull-right clearfix">
+				<li class="pull-left header-btn"><a>咨询电话：<b>400-000-5291</b></a></li>
+				<li class="pull-left header-btn"><a href="出诊安排.html">就诊指南</a></li>
+				<li class="pull-left header-btn"><a href="服务支持.html">就诊预约</a></li>
+				<li class="pull-left header-btn" style="max-width: 75px;"><a href="搜索.html"><img class="header-searchIcon" src="img/search.png" alt="header-searchIcon"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="max-container menu">
+		<div class="container">
+			<div class="clearfix visible-xs">
+				<a class="visible-xs pull-left menu-logo" href="index.html"><img class="" src="img/logo-white.png" alt="menu-logo"></a>
+				<div class="pull-right menu-icons m-header clearfix">
+					<img class="pull-left menu-closeIcon" src="img/closeMenu-icon.png" alt="menu-closeIcon">
+					<img class="pull-left menu-openIcon" src="img/openMenu-icon.png" alt="menu-openIcon">
+					<span class="pull-left menu-bar"></span>
+					<a class="pull-left" href="搜索.html"><img class="menu-searchIcon" src="img/search-white.png" alt="menu-searchIcon"></a>
+				</div>
+			</div>
+			<ul class="clearfix menu-btns">
+				<li class="pull-left menu-btn"><a href="index.html">首页</a><img class="pull-right visible-xs menu-jiantouIcon" src="img/jiantou-white.png"></li>
+				<li class="pull-left menu-btn"><a href="博仁服务.html">博仁服务</a><img class="pull-right visible-xs menu-jiantouIcon" src="img/jiantou-white.png"></li>
+				<li class="pull-left menu-btn menu-curr"><a href="专家团队.html">专家团队</a><img class="pull-right visible-xs menu-jiantouIcon" src="img/jiantou-white.png"></li>
+				<li class="pull-left menu-btn"><a href="出诊安排.html">出诊安排</a><img class="pull-right visible-xs menu-jiantouIcon" src="img/jiantou-white.png"></li>
+				<li class="pull-left menu-btn"><a href="关于博仁.html">关于博仁</a><img class="pull-right visible-xs menu-jiantouIcon" src="img/jiantou-white.png"></li>
+				<li class="pull-left menu-btn"><a href="服务支持.html">服务支持</a><img class="pull-right visible-xs menu-jiantouIcon" src="img/jiantou-white.png"></li>
+			</ul>
+			<div class="menu-btns2">
+				<a href="">就诊指南</a>
+				&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp
+				<a href="">就诊预约</a>
+			</div>
+			<p class="menu-phone">咨询电话：400-000-5291</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var isMenuOpen = false;
+		$('.menu-openIcon, .menu-closeIcon').click(function(){
+			if(!isMenuOpen){
+				$('.menu').addClass('menuOpen');
+				isMenuOpen = !isMenuOpen;
+			}else{
+				$('.menu').removeClass('menuOpen');
+				isMenuOpen = !isMenuOpen;
+			}
+		})
+	</script>
+
+
+
+
+
+
+
+	<!-- 内容区 -->
+	<div class="max-container content">
+		<div class="banner">
+			<div class="banner-picBox"></div>
+			<div class="min-container banner-content row">
+				<div class="col-md-6 col-sm-6">
+					<img class="expert-pic" src="img/expert-pic05.png">
+				</div>
+				<div class="banner-info col-md-6 col-sm-6">
+					<div class="banner-info-content">
+						<p class="expert-name">宋艳智</p>
+						<p class="expert-section">血液科</p>
+						<p class="expert-desc">医学学位/造血干细胞移植科主治医师</p>
+						<a class="banner-btn" href="服务支持.html">预约咨询<div class="btn-icon"><img class="btn-arrow" src="img/btn-arrow.png" alt="btn-arrow"></div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="max-container bg-white details-box">
+			<div class="min-container details-info">
+				<p class="details-title-sml">医生介绍</p>
+				<p class="big-text">医学学位、造血干细胞移植科主治医师。</p>
+			</div>
+			<div class="min-container details-info">
+				<p class="details-title-sml">医疗背景</p>
+				<p class="big-text">具有10年临床工作经历，有急诊及血液科工作经验。善于将基础和临床研究成果应用于临床实践，结合患者的具体情况予以个性化诊疗。踏实沉稳，认真负责，好学上进，团结协作，和蔼可亲。</p>
+				<p class="big-text">主要研究工作：对已发表或正在进行的临床研究从试验设计，试验进行过程以及试验结果等方面做出可靠性评价，并归纳总结全世界范围内的研究结果，评估证据级别指导临床诊治疾病。</p>
+				<p class="big-text">发表论文10余篇，其中SCI收录论文5篇，是世界著名医学杂志《Cochrane Database of Systematic Review》和《Plos One》的审稿人，是《 World Journal of Meta-analysis》杂志编委。</p>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="experience-box">
+							<p class="experience-year">2004年7月</p>
+							<p class="experience-desc big-text">毕业于华北煤炭医学院医学系；</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="experience-box">
+							<p class="experience-year">2006年9月 - 2008年9月</p>
+							<p class="experience-desc big-text">在萧山泰和老年康复医院任内科住院医师；</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="experience-box">
+							<p class="experience-year">2008年9月 - 2009年9月</p>
+							<p class="experience-desc big-text">在同济大学附属同济医院急诊科进修；</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="experience-box">
+							<p class="experience-year">2009年9月 - 2011年7月</p>
+							<p class="experience-desc big-text">在南京明基医院任急诊科住院医师；</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="experience-box">
+							<p class="experience-year">2010年</p>
+							<p class="experience-desc big-text">参加美国心脏学会基础生命支持和高级生命支持学习班，获得provider证书；</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="experience-box">
+							<p class="experience-year">2011年7月 - 2015年9月</p>
+							<p class="experience-desc big-text">在南京明基医院血液科历任住院医师、主治医师；</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="experience-box">
+							<p class="experience-year">2014年</p>
+							<p class="experience-desc big-text">参加江苏省人民医院静脉输液港应用培训班，获得静脉输液港置入证书；获得南京明基医院获得真善美奖；</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="experience-box">
+							<p class="experience-year">2015年9月 - 2017年2月</p>
+							<p class="experience-desc big-text">在上海道培医院造血干细胞移植科任主治医师；</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="experience-box">
+							<p class="experience-year">2017年5月</p>
+							<p class="experience-desc big-text">任北京博仁医院造血干细胞移植科主治医师。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<!--  页脚尾部 -->
+	<div class="max-container footer">
+		<div class="container clearfix">
+			<img class="footer-logo pull-left" src="img/logo-white.png" alt="footer-logo">
+			<div class="pull-right weChat">
+				<div class="weChat-qrCodeContainer">
+					<img class="weChat-qrCode-bg hidden-xs" src="img/WeChat-qrCode-bg.png" alt="weChat-qrCode-bg">
+					<img class="weChat-qrCode" src="img/WeChat-qrCode.png" alt="weChat-qrCode">
+				</div>
+				<span class="weChat-text">关注博仁</span>
+				<img class="weChat-icon visible-md-inline-block visible-lg-inline-block" src="img/WeChat-Icon.png" alt="weChat-icon">
+			</div>
+			<div class="footer-menu">
+				<ul class="clearfix footer-menu-btns visible-md-inline-block visible-lg-inline-block">
+					<li class="pull-left footer-menu-btn"><a href="index.html">博仁首页</a><span class="footer-menu-bar">|</span></li>
+					<li class="pull-left footer-menu-btn"><a href="博仁服务.html">博仁服务</a><span class="footer-menu-bar">|</span></li>
+					<li class="pull-left footer-menu-btn"><a href="专家团队.html">专家团队</a><span class="footer-menu-bar">|</span></li>
+					<li class="pull-left footer-menu-btn"><a href="出诊安排.html">出诊安排</a><span class="footer-menu-bar">|</span></li>
+					<li class="pull-left footer-menu-btn"><a href="关于博仁.html">关于博仁</a><span class="footer-menu-bar">|</span></li>
+					<li class="pull-left footer-menu-btn"><a href="服务支持.html">服务支持</a></li>
+				</ul>
+				<p class="footer-text">地址：北京市丰台区郑王坟南6号  <br class="visible-xs visible-sm" />咨询电话：400-000-5291&nbsp&nbsp&nbsp邮编：100070<br/>
+京卫计网审[2015]第0050号&nbsp&nbsp&nbsp京ICP备15011540号-1<br/>
+北京博仁医院版权所有</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+	var isWeChatShow = false;
+	$('.weChat-icon, .weChat-qrCodeContainer').click(function(){
+		if(!isWeChatShow){
+			$('.weChat-qrCodeContainer').css('display','block').animate({
+				'top':'-190px',
+				'opacity':'1',
+				'filter':'alpha(opacity=100)'
+			})
+			isWeChatShow = !isWeChatShow;
+		}else{
+			$('.weChat-qrCodeContainer').animate({
+				'top':'-150px',
+				'opacity':'0',
+				'filter':'alpha(opacity=0)'
+			}).css('display','none');
+			isWeChatShow = !isWeChatShow;
+		}
+	});
+	</script>
+
+
+  </body>
+</html>

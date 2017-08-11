@@ -1,0 +1,35 @@
+/*关于博仁*/
+@media (max-width: 767px) {
+	.banner .banner-pic{
+		margin-left: -875px;
+	}
+}
+#culture{ padding-bottom: 50px; }
+.culture-bg{ position: absolute; height: 100%; }
+.culture-box{
+	text-align: center;
+	border: solid 1px #b2d9ec;
+	border-radius: 220px;
+	height: 220px;
+	line-height: 220px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.culture-info{ display: inline-block; vertical-align: middle; }
+.culture-title{ font-size: 30px; font-weight: bolder; line-height: 1.4; }
+.culture-desc{ font-size: 15px; line-height: 1.8; }
+@media (max-width: 767px) {
+	.culture-box{ height: 120px; line-height: 120px; margin-bottom: 20px;}
+	.culture-title{ font-size: 20px;}
+	.culture-desc{ font-size: 12px;}
+}
+#scenes{ padding-bottom: 50px; }
+.scenes-box{ margin-bottom: 30px; }
+@media (max-width: 767px) {
+	.scenes-box{ margin-bottom: 0px; }
+}
+.scenes-pic{ width: 100%; }
+.swiper-scenes{ position: relative; overflow: hidden; }
+.swiper-wrapper{ height: auto!important;}
+.swiper-slide{ line-height: normal; height: auto!important; }
+.pagination{ bottom:0!important; top: auto!important; margin-bottom: 15px;}

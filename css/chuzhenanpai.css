@@ -1,0 +1,152 @@
+/*出诊安排*/
+@media (max-width: 767px) {
+	.banner .banner-pic{
+		margin-left: -853px;
+	}
+}
+#plan{ padding-bottom: 10px; }
+@media (max-width: 767px) {
+	#plan{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	    position: relative;
+	    min-height: 1px;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	}
+}
+.row{ margin-left: -5px; margin-right: -5px; }
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.plan-lists{
+	margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+	.plan-lists{
+		margin-bottom: 20px;
+	}
+}
+.plan-time{
+	width: 220px;
+	margin-left: 5px;
+	background: #31a4ed;
+	border-radius: 60px;
+	margin-bottom: 30px;
+}
+.plan-time-week{
+	display: inline-block;
+	font-size: 15px;
+	color: #31a4ed;
+	background: #fff;
+	line-height: 15px;
+	padding: 10px;
+	margin-left: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-radius: 60px;
+}
+.plan-time-date{
+	font-size: 22px;
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -2px;
+	margin-left: 18px;
+	font-weight: bolder;
+}
+@media (max-width: 767px) {
+	.plan-time{
+		width: 160px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.plan-time-week{
+		display: inline-block;
+		font-size: 12px;
+		line-height: 12px;
+		padding: 7px;
+		margin-left: 6px;
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+	.plan-time-date{
+		font-size: 16px;
+		margin-left: 13px;
+	}
+}
+.plan-box{
+	margin-bottom: 20px;
+}
+.plan-content{
+	position: relative;
+	border-radius: 0 0 10px 10px;
+	background: #f6fafd;
+	text-align: center;
+	overflow: hidden;
+}
+.plan-branch{
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+}
+@media (max-width: 767px) {
+	.plan-branch{
+		font-size: 14px;
+		height: 36px;
+		line-height: 36px;
+	}
+}
+.plan-expert{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.plan-expert-name{
+	font-size: 20px;
+	line-height: 20px;
+	color: #494f58;
+	font-weight: bolder;
+}
+.plan-expert-desc{
+	font-size: 14px;
+	color: #7b8088;
+	margin: 0;
+}
+@media (max-width: 767px) {
+	.plan-expert{
+		padding-top: 13px;
+		padding-bottom: 15px;
+	}
+	.plan-expert-name{
+		font-size: 18px;
+		line-height: 18px;
+	}
+	.plan-expert-desc{
+		font-size: 13px;
+	}
+}
+.plan-expert-times{
+	height: 70px;
+	font-size: 14px;
+	color: #7b8088;
+	background: #eff4f8;
+	line-height: 70px;
+}
+@media (max-width: 767px) {
+	.plan-expert-times{
+		height: 50px;
+		font-size: 12px;
+		line-height: 50px;
+	}
+}
+.plan-expert-time{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1.8;
+	margin: 0;
+}
+
