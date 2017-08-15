@@ -25,7 +25,7 @@
 @media (max-width: 767px) {
 	.emailBespeak{ text-align: center;}
 }
-.emailBespeak-btn{ position: relative; width: 230px; height: 45px; line-height: 45px; background: #31a4ed; color: #fff; display: block; text-align: center; border-radius: 60px; font-size: 16px; margin-top: 50px;}
+.emailBespeak-btn{ cursor: pointer; position: relative; width: 230px; height: 45px; line-height: 45px; background: #31a4ed; color: #fff; display: block; text-align: center; border-radius: 60px; font-size: 16px; margin-top: 50px;}
 @media (max-width: 767px) {
 	.emailBespeak-btn{ width: 100%; }
 }
