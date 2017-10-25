@@ -1,0 +1,37 @@
+.banner{ height: 150px; line-height: 150px; }
+.banner-picBox{ position: absolute; background: url(../img/daai-bg.gif);  height: 100%;  width: 100%;}
+.banner-cnText{ color: #fff; margin: 0; text-align: center; }
+@media (max-width: 767px) {
+	.banner{ height: 150px; line-height: 150px; }
+	.banner-Text{ display: inline-block; }
+}
+.details-box{ padding-top: 60px; padding-bottom: 0px; }
+.details-title-sml{ margin-bottom: 30px; }
+.details-info{ padding-bottom: 60px; }
+
+.media{ margin-bottom: 30px; display: block;}
+.media-object{ width: 200px; }
+.media-left, .media > .pull-left{ padding-right: 40px; }
+.media-heading{ font-size: 20px; color: #494f58; margin-bottom: 20px; }
+.media-desc{ margin-bottom: 20px; }
+.media-date{ margin-bottom: 0px; }
+@media (max-width: 767px) {
+	.media{ margin-bottom: 20px; }
+	.media-object{ width: 105px; }
+	.media-left, .media > .pull-left{ padding-right: 14px; }
+	.media-heading{ font-size: 16px; margin-bottom: 8px; line-height: 1.3; }
+	.media-date{ font-size: 12px; line-height: 12px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
