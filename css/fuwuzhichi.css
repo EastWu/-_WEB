@@ -11,15 +11,16 @@
 @media (max-width: 767px) {
 	.phoneBespeak{ text-align: center; }
 }
-.phoneBespeak-phone{ font-size: 30px; line-height: 30px; color: #31a4ed; font-weight: bold;
+.phoneBespeak-phone{ display: block; font-size: 30px; line-height: 30px; color: #31a4ed; font-weight: bold;
 	font-family:MyriadProBold, "PingFang SC","Helvetica Neue",Arial,"Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif;
 }
+.phoneBespeak-phone:hover, .phoneBespeak-phone:active, .phoneBespeak-phone:visited, .phoneBespeak-phone:link{ color: #31a4ed;}
 @media (max-width: 767px) {
 	.onlineBespeak{ text-align: center; margin-bottom: 40px; }
 }
 .onlineBespeak-btn{ width: 150px; height: 40px; line-height: 40px; color: #fff; text-align: center; display: block; background: #31a4ed; border-radius: 5px 20px 20px 5px;}
 @media (max-width: 767px) {
-	.onlineBespeak-btn{ margin: 0 auto; border-radius: 20px;}
+	.onlineBespeak-btn{ margin: 0 auto; border-radius: 20px; width: 100%;}
 }
 .onlineBespeak-btn:hover{ color: #fff;}
 @media (max-width: 767px) {
@@ -31,6 +32,11 @@
 }
 .emailBespeak-btn:hover{ color: #fff; }
 .emailBespeak-btn .btn-icon{ background: #fff; right: 8px;}
+#contact .tel{ color: #7b8088; }
+#contact .tel:hover{ color: #7b8088; }
+#contact .tel:active{ color: #7b8088; }
+#contact .tel:visited{ color: #7b8088; }
+#contact .tel:link{ color: #7b8088; }
 .contact-lists{ text-align: center;}
 .contact-list{ height: 168px; }
 .contact-icon{ width: 34px; margin-bottom: 20px;}

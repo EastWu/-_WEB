@@ -5,7 +5,7 @@
 	.banner-Text{
 		display: block;
 		text-align: center;
-		line-height: 264px;
+		line-height: 155px;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
@@ -57,6 +57,14 @@
 	bottom: 55px;
 }
 #main-tese{ padding-bottom: 40px; }
+#main-tese .big-text{ 
+    overflow:hidden;
+    text-overflow:ellipsis; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
 @media (max-width: 767px) {
 	#main-tese{ padding-left: 0; padding-right: 0px; padding-bottom: 5px; background: #f7f8fa;}
 	#main-tese .row{ margin-right: 0; }

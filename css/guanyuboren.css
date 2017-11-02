@@ -5,7 +5,7 @@
 	}
 }
 #culture{ padding-bottom: 50px; }
-.culture-bg{ position: absolute; height: 100%; }
+.culture-bg{ position: absolute; width: 100%; }
 .culture-box{
 	text-align: center;
 	border: solid 1px #b2d9ec;
